@@ -45,7 +45,7 @@ echo 必要なパッケージのインストールが完了しました。
 
 echo Android studio をダウンロードします
 URL=https://dl.google.com/dl/android/studio/ide-zips/3.2.0.26
-wget -q ${URL}/android-studio-ide-181.5014246-linux.zip
+wget  ${URL}/android-studio-ide-181.5014246-linux.zip
 echo ダウンロードしたファイルを展開しています
 sudo unzip -q android-studio-ide-*linux.zip -d /opt/
 rm -f android-studio-ide-*-linux.zip
