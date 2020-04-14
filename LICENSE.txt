@@ -253,20 +253,3 @@ f） その一部分（あるいはその改変されたバージョン）を伝
     ）
 
 
-プログラムが端末で対話的に機能するものならば、対話モードで起動した際に以下のような短い告知が出力されるようにしてください:
-
-    <program> Copyright (C) <year> <name of author>
-    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w’.
-    This is free software, and you are welcome to redistribute it
-    under certain conditions; type `show c’ for details.
-
-    （訳:
-    <プログラム名> Copyright (C) <年> <作者の名前>
-    このプログラムは*全くの無保証*で提供されます。詳しくは「show w」と
-    タイプして下さい。これはフリーソフトウェアであり、ある条件の下で再頒布することが
-    奨励されています。詳しくは「show c」とタイプして下さい。
-
-    ）
-ここで、仮想的なコマンド「show w」と「show c」 は一般公衆利用許諾書の適切な部分を表示するようになっていなければなりません。もちろん、あなたのプログラムのコマンドは例と違っていてもかまいません。GUIインターフェースならば、代わりに「…について」ボックスを使うのも良いでしょう。
-
-ま
